@@ -1,11 +1,4 @@
-
 #Exercises
-
-outlinesanyassumptionsanddesigndecisionsyoumade,andexplainshowthecodecanbebuiltandrun.Youmightalsocommentontheefficiencyof any algorithms used, and discuss any potential improvements
-
-Reason about the efficiency of an implementation, and discuss ways it might be improved
-
-
 ##Task One
 
 To Run: 
