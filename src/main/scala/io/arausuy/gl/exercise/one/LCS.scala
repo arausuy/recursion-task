@@ -19,4 +19,12 @@ object LCS extends App {
     }
     recurse(l.toStream, r.toStream).mkString
   }
+  
+  
+  if(args.length == 2){
+    println(lcs(args(0), args(1)))
+  } else {
+    println("Please supply two strings")
+  }
+  
 }
