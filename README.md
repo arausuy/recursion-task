@@ -1,6 +1,6 @@
-#Exercises
+# Exercises
 
-##Task One
+## Task One
 
 To Run: 
 `sbt "runMain io.arausuy.gl.exercise.one.LCS HELLO HALLO"`
