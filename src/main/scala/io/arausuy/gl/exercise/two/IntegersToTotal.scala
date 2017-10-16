@@ -57,5 +57,15 @@ object IntegersToTotal extends App {
       case h :: tail => tail.foldLeft(s"$initBrackets${h.value}") { (x, y) => s"$x ${y.toString})"}
     }
   }
+  
+  
+  if (args.length == 2) {
+    val bag = args(0).split(",").map(f => f.toInt)
+    val total = args(1).toInt
+
+    println(s"Solution found : ${run(bag, total)}")
+  } else {
+    println("Please supply a csv of Ints and a total")
+  }
 
 }
